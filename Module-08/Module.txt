@@ -1,0 +1,2 @@
+const url = require("url");
+const myUrl = "http://localhost:8080/api/v1product/delete?userID=1&productID-2" // base+Path+Query
