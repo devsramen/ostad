@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 50px;
+}
+main{
+    padding: 20px;
+    line-height: 1.5;
+}
+input{
+    margin-bottom: 50px;
+    padding: 10px;
+}
+label{
+    text-transform: capitalize;
+    line-height: 100%;
+}
+span{
+    color: blueviolet;
+}

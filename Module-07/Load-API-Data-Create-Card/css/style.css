@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* .container{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+} */
+table{
+    width: 100%;
+}
+table, tr, th, td{
+    border-collapse: collapse;
+    border: 1px solid #000;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.card-text{
+    text-align: justify;
+}
+.creatingCards{
+    padding: 10px 20px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.cardImage{
+    width: 100%;
+    height: 200px;
+}

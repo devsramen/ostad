@@ -1,0 +1,168 @@
+/*
+Demo Link : 
+https://codezeel.com/prestashop/PRS04/PRS040080/index.php
+*/
+
+/* ***************************************
+Template Name: Fashion || Fashion HTML Template
+Author: Ramen Biswas
+Author Email: printrb72@gmail.com
+website: http://www.devsramen.com/
+Version: 1.0
+Description: Fashion is Multi Page HTML Template designed for Fashion, ELECTRONICS, Baby & kids, AUTOMOBILES and Other business websites. It is designed with a Unique and clean & modern Look. This template is designed based on Bootstrap5 Grid System. You can customize it very easily to fit your needs. RegFood is a fully responsive layout. It fits perfectly on various displays and resolutions from regular desktop screens to tablets, iPads, iPhones, and small mobile devices.
+***************************************
+
+CSS TABLE OF CONTENTS
+===================================
+01. GLOBAL CSS 
+02. COMMON CSS
+03. HOME PAGE
+*/
+
+/*================================
+    GLOBAL CSS START
+================================*/
+html, body{
+    scroll-behavior: smooth !important;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+    font-family: var(--fontHeading);
+    color: var(--colorBlack);
+}
+
+p,
+a,
+span {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+}
+button {
+    /*border: none;
+    *//*background-color: transparent;
+    *//*box-shadow: none !important;
+    */padding: 10px 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+body {
+    font-family: var(--fontPrimary);
+    font-size: 16px;
+    overflow-x: hidden;
+    color: var(--paraColor);
+    background-color: #fbfbfb;
+}
+
+img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 12px 20px;
+    outline: none;
+    resize: none;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 300;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #a6a6ac;
+    text-transform: capitalize;
+}
+
+
+
+/* Variable Declaration Started*/
+:root {
+    --boxShadow: rgba(100, 100, 111, 0.15) 0px 7px 29px 0px;
+    --fontPrimary: 'Roboto', sans-serif;
+    --fontSecondary: 'Roboto Serif', serif;
+    --fontHeading: 'Righteous', sans-serif;
+    --colorPrimary: #808080;
+    --colorSecondary: #E48640;
+    --colorHeading: #080100;
+}
+/* Variable Declaration Ended*/
+
+/* Common CSS Started */
+.commonBtn{
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.commonBtn:hover{
+    color: #ffffff;
+    background-color: var(--colorSecondary);
+}
+/* Common CSS Ended */
+
+/* WORK Section Started */
+#work{
+    padding: 50px;
+    margin: 10px 100px;
+    border: 1px solid red;
+}
+.card{
+    width: 300px;
+    overflow: hidden;
+}
+/* WORK Section Ended */
